@@ -5,6 +5,6 @@ So, inorder to execute the given python file, we can follow the process mentione
 Link to download the creditcard dataset: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 2. Then, after extracting the downloaded dataset file, we have to give the path of this dataset file in our code file in the line:
 #loading dataset here
-fraud_data_frame = pd.read_csv(r"path/creditcard.csv")
+fraud_data_frame = pd.read_csv(r"enter_path_to_dataset_here\creditcard.csv")
 So, in the above line, we have to replace the path with the actual local path that where we are storing our dataset.
 3. Now, we can execute the python file to get the evaluation results.
