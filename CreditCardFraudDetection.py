@@ -15,7 +15,7 @@ from sklearn.metrics import roc_auc_score
 from imblearn.over_sampling import RandomOverSampler, SMOTE, ADASYN
 
 #loading dataset here
-fraud_data_frame = pd.read_csv(r"C:\Users\venkatesh panguluri\Desktop\Project_Credit_Card_Fraud_Detection\creditcard.csv\creditcard.csv")
+fraud_data_frame = pd.read_csv(r"enter_path_to_dataset_here\creditcard.csv")
 #Showing number of samples(rows) and features(columns) (rows, columns)
 print("Dataset Shape:\n(Samples, features)\n", fraud_data_frame.shape)
 #Showing all the feature names i.e., column names
